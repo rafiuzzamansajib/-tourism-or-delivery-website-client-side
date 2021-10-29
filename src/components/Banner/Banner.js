@@ -16,8 +16,8 @@ const Banner = () => {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3 className="text-dark">Specialist Doctors Panel</h3>
-                    <p className="text-dark">We have some best doctor.They teart patient very frindly</p>
+                    <h3 className="text-dark">ADVENTURE IS WORTHWHILE</h3>
+                    <p className="text-dark">Dicover New Places With Us, Adventure Await</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
@@ -27,8 +27,8 @@ const Banner = () => {
                 alt="Second slide"
                 />
                 <Carousel.Caption>
-                <h3 className="text-dark">Patient Ward</h3>
-                <p className="text-dark">Clean and Comfortable Ward.It feels patient that they are in home</p>
+                <h3 className="text-dark">ADVENTURE IS WORTHWHILE</h3>
+                <p className="text-dark">Dicover New Places With Us, Adventure Await</p>
                 </Carousel.Caption>
              </Carousel.Item>
              <Carousel.Item>
@@ -38,8 +38,8 @@ const Banner = () => {
                 alt="Third slide"
                 />
                 <Carousel.Caption>
-                <h3 className="text-dark">Operation Theatre</h3>
-                <p className="text-dark">Best Segueon team perform in verious critical and Life saving surgery</p>
+                <h3 className="text-dark">ADVENTURE IS WORTHWHILE</h3>
+                <p className="text-dark">Dicover New Places With Us, Adventure Await</p>
                 </Carousel.Caption>
              </Carousel.Item>
         </Carousel>

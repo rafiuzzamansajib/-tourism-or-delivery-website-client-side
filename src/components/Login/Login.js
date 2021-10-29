@@ -7,13 +7,20 @@ import Header from '../Header/Header';
 const Login = () => {
     const {signInUsingGoogle} = useAuth();
     return (
-        <div>
-            <Header></Header>
-            <div className='p-2 mx-4'>
-            <button onClick={signInUsingGoogle} className="btn btn-light border"><FontAwesomeIcon  icon={faGoogle}/> Google Sign In</button>
+        <> 
+         <Header></Header>
+         <div className='container'>
+             <div className='m-5 shadow-lg'>
+             <h2 className='text-center my-5 p-2'>Please, LogIn</h2>
+             </div>
+            <div className="d-flex justify-content-center align-items-center rounded">
+                <div className='p-2 mx-4'>
+                <button onClick={signInUsingGoogle} className="btn btn-secondary border"><FontAwesomeIcon  icon={faGoogle}/> Google Sign In</button>
+                </div>
             </div>
+         </div>
             
-        </div>
+        </>
     );
 };
 
