@@ -10,12 +10,12 @@ const Header = () => {
         <>
         <Navbar bg="secondary" variant="light p-4 shadow-lg" sticky="top"  expand="lg" >
             <Container>
-                <Navbar.Brand href="#home">TRAVEL</Navbar.Brand>
+                <Navbar.Brand href="#home"><span>T</span>RAVEL</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav.Link className="header-link text-dark" as={HashLink} to="/home#home">Home</Nav.Link>
                     <Nav.Link className="header-link text-dark" as={HashLink} to="/home#package">Package</Nav.Link>
-                    <Nav.Link className="header-link text-dark" as={HashLink} to="/home#guide">Guide</Nav.Link>
+                    <Nav.Link className="header-link text-dark" as={HashLink} to="/home#reviwe">Reviwe</Nav.Link>
                     <Nav.Link className="header-link text-dark" as={HashLink} to="/home#gallary">Gallary</Nav.Link>
                         {
                             user?.email?

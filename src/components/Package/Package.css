@@ -1,0 +1,16 @@
+.package:hover{
+    background-color: whitesmoke;
+    border-radius:20px ;
+}
+.package img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.icon-color{
+    color: gold;
+}
+.btn-custom{
+    background-color: orange;
+    color: white;
+}
