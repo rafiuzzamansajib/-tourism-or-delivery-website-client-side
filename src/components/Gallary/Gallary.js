@@ -18,7 +18,7 @@ const Gallary = () => {
                     key={image.key}
                     className="col-4 p-1">
                         <div className='gallary'>
-                        <img src={image.img} alt="" />
+                        <img src={image.thumb} alt="" />
                         </div>
                     </div>)
                 }
