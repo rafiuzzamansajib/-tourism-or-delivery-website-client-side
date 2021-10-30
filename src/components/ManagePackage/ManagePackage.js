@@ -6,12 +6,12 @@ import Header from '../Header/Header';
 const ManagePackage = () => {
     const [manages,setManages] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/packages')
+        fetch('https://shrouded-bastion-51336.herokuapp.com/packages')
         .then(res=>res.json())
         .then(data=> setManages(data))
     },[])
     const handelDelete = id =>{
-        const url = `http://localhost:5000/packages/${id}`;
+        const url = `https://shrouded-bastion-51336.herokuapp.com/${id}`;
         fetch(url,{
             method:'DELETE'
         })

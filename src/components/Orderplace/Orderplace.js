@@ -11,7 +11,7 @@ const Orderplace = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('http://localhost:5000/orderplace', data)
+        axios.post('https://shrouded-bastion-51336.herokuapp.com/orderplace', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

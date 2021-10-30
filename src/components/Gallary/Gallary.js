@@ -4,7 +4,7 @@ import './Gallary.css'
 const Gallary = () => {
     const[images,setImages] =useState([]);
     useEffect(() =>{
-        fetch('http://localhost:5000/packages')
+        fetch('https://shrouded-bastion-51336.herokuapp.com/packages')
         .then(res => res.json())
         .then(data => setImages(data));
     },[])

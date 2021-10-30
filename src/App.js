@@ -8,6 +8,7 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Booking from './components/Booking/Booking';
 import Orderplace from './components/Orderplace/Orderplace';
 import ManagePackage from './components/ManagePackage/ManagePackage';
+import { NotFound } from 'http-errors';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           </PrivateRoute>
           <PrivateRoute path="/managePacages">
             <ManagePackage></ManagePackage>
-          </PrivateRoute>
+          </PrivateRoute>  
       </Switch>
   </BrowserRouter>
  </AuthProvider>

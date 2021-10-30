@@ -6,7 +6,7 @@ import pic2 from './../../images/reviwes/pic2.png'
 import pic3 from './../../images/reviwes/pic3.png'
 const Reviwes = () => {
     return (
-        <div>
+        <div id='reviwe'>
             <h2 className='text-center'>Reviwes</h2>
             <div className="container">
             <div className='row'>
