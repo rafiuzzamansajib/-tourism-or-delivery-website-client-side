@@ -11,7 +11,7 @@ const Header = () => {
         <>
         <Navbar bg="secondary" variant="light p-4 shadow-lg" sticky="top"  expand="lg" >
             <Container>
-                <Navbar.Brand href="#home"><span>T</span>RAVEL</Navbar.Brand>
+                <Navbar.Brand href="#home"><span className='text-design'>T</span>RAVEL</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav.Link className="header-link text-dark nav-bar" as={HashLink} to="/home#home">Home</Nav.Link>
