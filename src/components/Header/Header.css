@@ -1,0 +1,7 @@
+span{
+    color: orange;
+    font-size: 35px;
+}
+.nav-bar:hover{
+    background-color: orange;
+}
