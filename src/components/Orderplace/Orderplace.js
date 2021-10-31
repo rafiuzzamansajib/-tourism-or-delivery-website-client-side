@@ -14,7 +14,7 @@ const Orderplace = () => {
         axios.post('https://shrouded-bastion-51336.herokuapp.com/orderplace', data)
             .then(res => {
                 if (res.data.insertedId) {
-                    alert('added successfully');
+                    alert('Order Place successfully');
                     reset();
                 }
             })
@@ -36,6 +36,8 @@ const Orderplace = () => {
 
             <input placeholder="City" defaultValue="" {...register("city")} />
 
+            <input type='date' defaultValue="" {...register("date")} />
+            
             <input placeholder="phone number" defaultValue="" {...register("phone")} />
 
             <input type="submit" />

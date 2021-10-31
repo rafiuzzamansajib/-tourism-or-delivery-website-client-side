@@ -7,8 +7,7 @@ import Addpackage from './components/Addpackage/Addpackage';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Booking from './components/Booking/Booking';
 import Orderplace from './components/Orderplace/Orderplace';
-import ManagePackage from './components/ManagePackage/ManagePackage';
-import { NotFound } from 'http-errors';
+import ManageOrders from './components/ManageOrders/ManageOrders';
 
 function App() {
   return (
@@ -33,8 +32,8 @@ function App() {
           <PrivateRoute path="/orderplace">
             <Orderplace></Orderplace>
           </PrivateRoute>
-          <PrivateRoute path="/managePacages">
-            <ManagePackage></ManagePackage>
+          <PrivateRoute path="/manageorders">
+            <ManageOrders></ManageOrders>
           </PrivateRoute>  
       </Switch>
   </BrowserRouter>

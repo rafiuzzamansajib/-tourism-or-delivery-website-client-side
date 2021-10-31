@@ -25,7 +25,7 @@ const Header = () => {
                         }
                         {
                             user?.email?
-                            <Nav.Link className="header-link text-dark nav-bar" as={Link} to="/managePacages">Manage Package</Nav.Link>:
+                            <Nav.Link className="header-link text-dark nav-bar" as={Link} to="/manageorders">Manage Orders</Nav.Link>:
                             ""
                         }
                         {user?.email ?
